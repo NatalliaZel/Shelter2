@@ -1,3 +1,5 @@
+console.log(`Window width: ${window.innerWidth}px`);
+
 /*** self-asset ***/
 function showSelfAsset() {
   console.log(

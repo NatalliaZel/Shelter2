@@ -142,11 +142,17 @@ h2 {
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.9px) {
   .header-nav {
     display: none;
   }
 }
+
+/*@media screen and (max-width: 767px) {
+  .header-nav {
+    display: none;
+  }
+}*/
 
 .nav-item {
   color: rgb(205, 205, 205);
@@ -211,13 +217,21 @@ h2 {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.9px) {
   .burger {
     display: block;
     position: relative;
     z-index: 3;
   }
 }
+
+/*@media screen and (max-width: 767px) {
+  .burger {
+    display: block;
+    position: relative;
+    z-index: 3;
+  }
+}*/
 
 @media (hover: hover) {
   .burger:hover {
